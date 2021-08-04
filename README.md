@@ -16,6 +16,10 @@ runfile('C:/Users/akayal/OneDrive - CSG Systems Inc/Deep Learning/EPAI-3/Session
 Reloaded modules: epai_3_13_lazy_iterator_generator, epai_3_13_lazy_iterator_file_reader
 
 ### Goal 1
+
+- Use encryption keys to protect data when it is at rest within S3. We can use AWS encrypted API endpoint for data transfer. Data at rest can be 
+
+```python
 4006478550,VAD7274,VA,PAS,10/5/2016,5,4D,BMW,BUS LANE VIOLATION
 
 parking_details(summonsNumber='SummonsNumber', plateID='PlateID', registrationState='RegistrationState', plateType='PlateType', issueDate='IssueDate', violationCode='ViolationCode', vehicleBodyType='VehicleBodyType', vehicleMake='VehicleMake', violationDescription='ViolationDescription')
@@ -313,8 +317,10 @@ parking_details(summonsNumber='SummonsNumber', plateID='PlateID', registrationSt
 8480520395,99886MC,NY,COM,6/19/2017,14,VAN,FRUEH,14-No Standing
 
 parking_details(summonsNumber='SummonsNumber', plateID='PlateID', registrationState='RegistrationState', plateType='PlateType', issueDate='IssueDate', violationCode='ViolationCode', vehicleBodyType='VehicleBodyType', vehicleMake='VehicleMake', violationDescription='ViolationDescription')
-
+```
 ### Goal 2
+
+```python
 Number of Violation by Car Make:Vehicle Make
 TOYOT    100
 FORD      98
@@ -377,3 +383,5 @@ FIAT       0
 UTILI      0
 GMCQ       0
 Name: Violation Description, dtype: int64
+```
+
