@@ -20,7 +20,6 @@ Reloaded modules: epai_3_13_lazy_iterator_generator, epai_3_13_lazy_iterator_fil
 - Use encryption keys to protect data when it is at rest within S3. We can use AWS encrypted API endpoint for data transfer. Data at rest can be 
 
 ```python
-4006478550,VAD7274,VA,PAS,10/5/2016,5,4D,BMW,BUS LANE VIOLATION
 
 parking_details(summonsNumber='SummonsNumber', plateID='PlateID', registrationState='RegistrationState', plateType='PlateType', issueDate='IssueDate', violationCode='ViolationCode', vehicleBodyType='VehicleBodyType', vehicleMake='VehicleMake', violationDescription='ViolationDescription')
 4006462396,22834JK,NY,COM,9/30/2016,5,VAN,CHEVR,BUS LANE VIOLATION
